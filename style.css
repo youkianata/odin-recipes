@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    /* outline: 2px solid black; */
+}
+/* body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/image.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    z-index: -1;
+} */
+nav {
+   background-color: #f9a2c2;
+   width: 100%;
+   padding: 20px;
+   position: sticky;
+   top: 0;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  /* padding: 10px; */
+  margin: 0;
+}
+
+nav ul li {
+    padding-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+ 
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4e3e6;
+    padding: 40px 0px; 
+    gap: 40px;
+    height: 600px;
+}
+
+#home .home-div1 {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+
+
+#home div img {
+    width: auto;
+    object-fit: fill;
+    height: 350px;
+    margin-top: 10px;
+}
+#about {
+    background-color: rgba(226, 251, 255, 0.839);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px; 
+    /* margin-bottom: 40px;
+    margin-top: 40px; */
+}
+#about div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+    padding-left: 10px;
+    height: 500px;
+    width: 75%;
+}
+#about div img {
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#about div p {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+#recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    height: 600px;
+}
+
+#recipes ul {
+    display: flex;
+}
+
+#recipes ul li {
+    list-style: none;
+    padding: 10px;
+} 
+#recipes ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    background-color: #f9a2c2;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
